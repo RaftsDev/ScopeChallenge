@@ -28,6 +28,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number:");
         X x = new X(scanner.nextInt());
+        x.x();
 
     }
 }
