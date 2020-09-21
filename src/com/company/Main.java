@@ -22,5 +22,7 @@ public class Main {
         // Optional Extra:
         // Change your program so that ALL variables (including the scanner
         // instance) are called x.
+
+
     }
 }
