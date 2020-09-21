@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,6 +25,9 @@ public class Main {
         // Change your program so that ALL variables (including the scanner
         // instance) are called x.
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        X x = new X(scanner.nextInt());
 
     }
 }
